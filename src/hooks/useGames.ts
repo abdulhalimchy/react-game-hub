@@ -18,6 +18,7 @@ const useGames = () => {
           ordering: gameQuery.sortOrder,
           search: gameQuery.searchText,
           page: pageParam,
+          page_size: 12
         },
       }),
     staleTime: 24 * 60 * 60 * 1000, // 24h
